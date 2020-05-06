@@ -1,0 +1,6 @@
+a 3.0 9 Supermercado no 3 Tue 0 
+b 5.0 1 Supermercado si 5 Tue 1 
+c 7.0 39 Farmacia no 7 Tue 2 
+d 10.0 2 Supermercado si 10 Tue 3 
+e 10.0 15 Supermercado no 10 Tue 4 
+f 5.0 0 Farmacia si 9 Wed Apr 22 15:01:30 CDT 2020 5 

@@ -1,0 +1,5 @@
+a 3.0 9 Supermercado no 3 Tue Apr 21 16:01:18 CDT 2020 0 
+b 5.0 1 Supermercado si 5 Tue Apr 21 16:01:37 CDT 2020 1 
+c 7.0 39 Farmacia no 7 Tue 2 
+d 10.0 2 Supermercado si 10 Tue Apr 21 16:01:47 CDT 2020 3 
+e 10.0 15 Supermercado no 10 Tue Apr 21 16:01:26 CDT 2020 4 

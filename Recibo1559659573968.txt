@@ -1,0 +1,10 @@
+
+-----Tienda Particular de Dudosa Procedencia-----
+************************************************
+
+Su compra fue: Azucar
+Precio: 25.0
+Cantidad Comprada: 20.0
+Total: 500.0
+
+---- ¡Vuelva Pronto! ----
