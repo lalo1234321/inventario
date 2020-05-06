@@ -1,0 +1,14 @@
+create database topicos;
+
+
+
+CREATE TABLE Inventario
+  (
+    clase VARCHAR(20),
+    nombre VARCHAR(15),
+    cantidad INT,
+    precio DOUBLE,
+    limInf INT,
+    fecha VARCHAR(30),
+    id INTEGER PRIMARY KEY NOT NULL
+  );
