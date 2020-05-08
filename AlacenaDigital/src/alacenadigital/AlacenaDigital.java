@@ -407,7 +407,7 @@ public class AlacenaDigital
         archivo=new File(absolutePath);
         opciones1=new String[50];
         subMenu=new JComboBox<String>();
-        llenarCombo();
+        //llenarCombo();
         
         lbMenu=new JLabel();
         b50=new JButton("Aceptar");
@@ -1082,15 +1082,15 @@ public class AlacenaDigital
                         System.out.println(Producto.getID());
                         //System.out.println(Producto.getCantidadRequerida());
                         cd=Producto.getCantidadRequerida();
-                        jTable2.setValueAt(cd, Producto.getID(), 2);
-                        jTable2.setValueAt(cal, Producto.getID(), 6);
+                        jTable2.setValueAt(b, Producto.getID()-3, 2);
+                        jTable2.setValueAt(cal, Producto.getID()-3, 6);
                         if(Producto.getCantidadRequerida()<Producto.getLimInf())
                         {
-                            jTable2.setValueAt("si", Producto.getID(), 4);
+                            jTable2.setValueAt("si", Producto.getID()-3, 4);
                         }
                         else
                         {
-                             jTable2.setValueAt("no", Producto.getID(), 4);
+                             jTable2.setValueAt("no", Producto.getID()-3, 4);
                         }
                     }
                 }
@@ -1137,15 +1137,15 @@ public class AlacenaDigital
                         System.out.println(Producto.getID());
                         //System.out.println(Producto.getCantidadRequerida());
                         cd=Producto.getCantidadRequerida();
-                        jTable2.setValueAt(cd, Producto.getID(), 2);
-                        jTable2.setValueAt(cal, Producto.getID(), 6);
+                        jTable2.setValueAt(cd, Producto.getID()-3, 2);
+                        jTable2.setValueAt(cal, Producto.getID()-3, 6);
                         if(Producto.getCantidadRequerida()<Producto.getLimInf())
                         {
-                            jTable2.setValueAt("si", Producto.getID(), 4);
+                            jTable2.setValueAt("si", Producto.getID()-3, 4);
                         }
                         else
                         {
-                             jTable2.setValueAt("no", Producto.getID(), 4);
+                             jTable2.setValueAt("no", Producto.getID()-3, 4);
                         }
                         }
                        // Producto.setID(Producto.getID()+1);
