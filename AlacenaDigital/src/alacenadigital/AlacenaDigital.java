@@ -767,8 +767,8 @@ public class AlacenaDigital
         });
         p1.add(lbProg);
         p1.add(prog);
-        p1.add(b_Cargar);
-        p1.add(b_Guardar);
+        //p1.add(b_Cargar);
+        //p1.add(b_Guardar);
        // p1.add(comp1);
         b1.setVisible(false);
         JLabel lab=new JLabel();
