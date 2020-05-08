@@ -17,7 +17,7 @@
 
 --
 -- Table structure for table `Inventario`
---EL USUARIO ES: ROOT   PASSWORD:240298
+--EL USUARIO ES: ROOT   PASSWORD:''
 --La base de datos tiene el nombre de topicos  ejemplo CREATE DATABASE topicos; 
 
 DROP TABLE IF EXISTS `Inventario`;

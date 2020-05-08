@@ -11,7 +11,7 @@ public class Conexion
 	private String driver ="com.mysql.jdbc.Driver";
 	private String conectionUrl="jdbc:mysql://localhost:3306/topicos";
 	private String userName="root";
-	private String password="240298";
+	private String password="";
 	public Conexion() 
 	{
 		con=null;
